@@ -1,20 +1,54 @@
-# Week 1 Lab: Setup and Baseline Smoke Test
+# Week 1 Lab: Solver Setup and Baseline Smoke Test
 
 ## Objectives
 
-- Build project environment.
-- Run one baseline solver on a tiny instance.
-- Confirm metric extraction pipeline.
+By the end of Week 1, each team should have one small routing instance solved by a baseline tool, with objective value and feasibility status recorded.
 
-## Tasks
+## Step 1: Choose a Starter Path
 
-1. Create environment and install dependencies.
-2. Run one CVRP/VRPTW baseline case.
-3. Export objective value and feasibility status.
-4. Save command output and plots/screenshots.
+Pick one:
+
+1. **OR-Tools VRPTW path** for learning constraints and solver output.
+2. **PyVRP path** for a strong Python-based heuristic baseline.
+3. **POMO / RL path** only if the team already understands CVRP and neural training basics.
+
+Do not start with full truck-drone EVRP-TW in Week 1.
+
+## Step 2: Environment Record
+
+Record:
+
+- operating system;
+- Python version;
+- package manager;
+- solver or codebase version;
+- exact install commands;
+- hardware used for runtime.
+
+## Step 3: Smoke Test
+
+Run one tiny instance and save:
+
+- command;
+- instance name and size;
+- objective value;
+- feasibility status;
+- runtime;
+- route plot or textual route output.
+
+The route does not need to be optimal. It must be executable and interpretable.
+
+## Step 4: Reflection
+
+Write one short paragraph:
+
+- What constraint was easiest to understand?
+- What output was confusing?
+- What will be the Week 2 baseline target?
 
 ## Deliverables
 
-- Setup evidence
-- Baseline command and output
-- One short reflection on blockers
+- Completed [Week 1 checkpoint](../checklists/week01_checkpoint.md).
+- Baseline command and output.
+- Objective value, feasibility status, and runtime.
+- One screenshot, plot, or route text.
