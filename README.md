@@ -1,4 +1,4 @@
-# VRP, EVRP-TW, and Truck-Drone Routing
+# VRP, EVRP-TW, and Truck-Drone Routing 
 
 Undergraduate SEP summer research project hub for learning-based and hybrid optimization in constrained logistics.
 
